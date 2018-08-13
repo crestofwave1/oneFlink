@@ -1,7 +1,7 @@
-* [Flink是什么](./doc/what-is-flink.md)
-  * 入门
-    * [简介](doc/what-is-flink.md)
-    * [Flink standalone 安装部署](doc/FlinkDeploy.md)
+* [Flink是什么](doc/quickstark/what-is-flink.md)
+  * quickstark
+    * [简介](doc/quickstark/what-is-flink.md)
+    * [Flink standalone 安装部署](doc/quickstark/FlinkDeploy.md)
     * [Flink on yarn 安装部署](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/deployment/yarn_setup.html)
     * [高可用 HA](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/jobmanager_high_availability.html)
     
@@ -66,7 +66,7 @@
     * [Restart Strategies](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/restart_strategies.html)   
     
   * CEP
-    * [Event Processing (CEP)](doc/FlinkCEPOfficeWeb.md)
+    * [Event Processing (CEP)](doc/quickstark/FlinkCEPOfficeWeb.md)
   
   * State & Fault Tolerance
     * [checkpoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html)

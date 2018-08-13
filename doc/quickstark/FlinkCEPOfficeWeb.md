@@ -629,11 +629,11 @@ pattern.within(Time.seconds(10));
 
 例如，对于给定模式a b {2}和数据流ab1，ab2，ab3，ab4，ab5，ab6，这四种跳过策略之间的差异如下：
 
-![image](../pic/CEP/跳过策略.png)
+![image](../../pic/CEP/跳过策略.png)
 
 要指定要使用的跳过策略，只需调用以下命令创建AfterMatchSkipStrategy：
 
-![image](../pic/CEP/创建跳过策略.png)
+![image](../../pic/CEP/创建跳过策略.png)
 
 使用方法：
 

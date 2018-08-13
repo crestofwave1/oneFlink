@@ -33,7 +33,7 @@ Flink要求在主节点和所有工作节点上设置JAVA_HOME环境变量，并
 
 以下示例说明了具有三个节点（IP地址从10.0.0.1到10.0.0.3以及主机名master，worker1，worker2）的设置，并显示了配置文件的内容（需要在所有计算机上的相同路径上访问））：
 
-![image](../pic/WhatIsFlink/flinkCluster.png)
+![image](../../pic/WhatIsFlink/flinkCluster.png)
 
 Flink目录必须在同一路径下的每个worker上都可用。 您可以使用共享NFS目录，也可以将整个Flink目录复制到每个工作节点。
 
