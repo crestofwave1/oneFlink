@@ -14,7 +14,7 @@
     * [Zipping Elements](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/zip_elements_guide.html) 
     * [Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/connectors.html)
     * [Hadoop Compatibility](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/hadoop_compatibility.html)
-    * [Local Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/local_execution.html)
+    * [本地执行 认领 by 孤鹜齐飞 翻译中](/dev/local_execution.html)
     * [Cluster Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
   * streaming
       * [概览](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
