@@ -4,20 +4,20 @@
     * [Flink standalone 安装部署](doc/quickstark/FlinkDeploy.md)
     * [Flink on yarn 安装部署](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/deployment/yarn_setup.html)
     * [高可用 HA](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/jobmanager_high_availability.html)
-    
+
   * [基本API介绍](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/api_concepts.html)
   * batch
     * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/)
     * [transformations](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/dataset_transformations.html)
     * [Fault Tolerance](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/fault_tolerance.html)
     * [Iterations](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/iterations.html)
-    * [Zipping Elements](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/zip_elements_guide.html) 
+    * [Zipping Elements](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/zip_elements_guide.html)
     * [Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/connectors.html)
     * [Hadoop Compatibility](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/hadoop_compatibility.html)
     * [Local Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/local_execution.html)
     * [Cluster Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
   * streaming
-      * [概览](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
+      * [概览]（认领 by wayblink,翻译中）(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
       * 事件时间
           * [事件时间](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/event_time.html)
           * [产生时间戳和水印](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/event_timestamps_watermarks.html)
@@ -64,17 +64,17 @@
     * [Parallel Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/parallel.html)
     * [Execution Plans](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/execution_plans.html)
     * [Restart Strategies](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/restart_strategies.html)   
-    
+
   * CEP
     * [Event Processing (CEP)](doc/quickstark/FlinkCEPOfficeWeb.md)
-  
+
   * State & Fault Tolerance
     * [checkpoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html)
     * [savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)
     * [State Backends](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/state_backends.html)   
     * [Tuning Checkpoints and Large State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/large_state_tuning.html)
-    
-  * Debugging & Monitoring 
+
+  * Debugging & Monitoring
     * [Metrics](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/metrics.html)    
     * [logging](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/logging.html)
     * [historyserver](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/historyserver.html)
@@ -89,10 +89,10 @@
     * batch
     * streaming
     * table
-    
+
   * 源码
     * ing
-    
+
   * meetup分享
     * 2018.08.11 北京flink meetup
         链接:https://pan.baidu.com/s/1CLp2aFfef1M15Qauya4rCQ 密码:93mr
