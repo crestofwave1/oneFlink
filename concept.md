@@ -1,56 +1,99 @@
 * [Flink是什么](./doc/what-is-flink.md)
-  * Streaming
-    * 简介
-    * [Flink安装部署](./doc/Flink安装部署.md)
-    * [Spark Streaming vs flink](./doc/flink-vs-sparkstreaming.md)
-    * [Flink CEP 官网翻译](./doc/FlinkCEP官网翻译.md)
-    * [Flink CEP案例简介](./doc/Flink%20CEP案例.md)
-    * [Flink checkpoint](./doc/FlinkCheckpoint详解.md)
-    * [轻量级分布式快照](doc/Flink轻量级分布式快照系统.md)
-    * Stream-source
-    * Stream-sink
-    * Stream-window
-    * Stream-windowfunction
-    * Stream-transformation
-    * Stream-opertator
-  * 失败容错
-    * 简介
-    * Checkpoint机制
-    * Akka的Actor模型的消息驱动协同机制
-    * zk在Fault Tolerance机制中发挥的作用
-    * 分析保存点及检查点的区别与练习
-    * 结合代码分析保存点的触发机制及保存点的存储
-    * 分析状态终端的实现方式及状态快照和恢复
-    * Checkpoint barrier提供的exactly-once以及at-least-once一致性保证的关键代码分析
-    * 总结
-  * 流迭代
-    * 简介
-    * 流处理中迭代API的使用模式
-    * IterativeStream源码分析
-    * FeedbackTransformation
-    * 化解反馈环
-  * 窗口算子分析
-
+  * 入门
+    * [简介](doc/what-is-flink.md)
+    * [Flink standalone 安装部署](doc/FlinkDeploy.md)
+    * [Flink on yarn 安装部署](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/deployment/yarn_setup.html)
+    * [高可用 HA](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/jobmanager_high_availability.html)
+    
+  * [基本API介绍](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/api_concepts.html)
+  * batch
+    * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/)
+    * [transformations](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/dataset_transformations.html)
+    * [Fault Tolerance](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/fault_tolerance.html)
+    * [Iterations](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/iterations.html)
+    * [Zipping Elements](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/zip_elements_guide.html) 
+    * [Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/connectors.html)
+    * [Hadoop Compatibility](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/hadoop_compatibility.html)
+    * [Local Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/local_execution.html)
+    * [Cluster Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
+  * streaming
+      * [概览](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
+      * 事件时间
+          * [事件时间](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/event_time.html)
+          * [产生时间戳和水印](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/event_timestamps_watermarks.html)
+          * [预定义时间戳抽取器和水印发舍器](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/event_timestamp_extractors.html)
+      * State & Fault Tolerance
+          * [State & Fault Tolerance](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/)
+          * [Working with State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/state.html)
+          * [The Broadcast State Pattern](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/broadcast_state.html)   
+          * [Checkpointing](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/checkpointing.html)
+          * [Queryable State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/queryable_state.html)
+          * [State Backends](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/state_backends.html)
+          * [Custom Serialization](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/custom_serialization.html)
+      * Operators
+        * [Operators](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/)   
+        * [windows](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/windows.html)
+        * [Joining](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/joining.html)
+        * [Process Function](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/process_function.html)
+        * [Asynchronous I/O](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/asyncio.html)
+      * Streaming Connectors
+        * [Streaming Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/connectors/)
+        * [Fault Tolerance Guarantees](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/connectors/guarantees.html)
+        * [kafka](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/connectors/kafka.html)
+        * [es](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/connectors/elasticsearch.html)
+        * [HDFS Connector](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/connectors/filesystem_sink.html)
+      * Side Outputs
+        * [Side Outputs](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/side_output.html)
+        * []()
+  * table
+    * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
+    * [Concepts & Common API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/common.html)
+    * [Streaming Concepts](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/streaming.html)   
+    * [Connect to External Systems](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/connect.html)
+    * [Table API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/tableApi.html)
+    * [SQL](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sql.html)
+    * [User-defined Sources & Sinks](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sourceSinks.html)
+    * [User-defined Functions](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/udfs.html)   
+    * [SQL Client Beta](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sqlClient.html)
+  * Data Types & Serialization
+    * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/types_serialization.html)
+    * [Custom Serializers](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/custom_serializers.html)
+  * Managing Execution   
+    * [Execution Configuration](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/execution_configuration.html)
+    * [Program Packaging](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/packaging.html)
+    * [Parallel Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/parallel.html)
+    * [Execution Plans](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/execution_plans.html)
+    * [Restart Strategies](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/restart_strategies.html)   
+    
   * CEP
-    * 简介
-    * CEP API分析
-    * CEP之NFA编译器
-    * CEP值模式流与运算符
+    * [Event Processing (CEP)](doc/FlinkCEPOfficeWeb.md)
+  
+  * State & Fault Tolerance
+    * [checkpoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html)
+    * [savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)
+    * [State Backends](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/state_backends.html)   
+    * [Tuning Checkpoints and Large State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/large_state_tuning.html)
+    
+  * Debugging & Monitoring 
+    * [Metrics](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/metrics.html)    
+    * [logging](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/logging.html)
+    * [historyserver](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/historyserver.html)
+    * [Monitoring Checkpointing](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/checkpoint_monitoring.html)   
+    * [Monitoring Back Pressure](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/back_pressure.html)
+    * [Monitoring REST API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/rest_api.html)
+    * [Debugging Windows & Event Time](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/debugging_event_time.html)
+    * [Debugging Classloading](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/debugging_classloading.html)
+    * [Application Profiling](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/application_profiling.html)   
 
-  * 内存管理
-    * 内存管理简介
-    * 内存管理源码之基础数据结构
-    * 内存管理器与PageView剖析
-
-  * batch-优化器
-    * Batch-批处理优化器Interesting Properties
-    * Batch-批处理优化器之成本估算
-    * Batch-范围分区优化，计划改写
-    * Batch-数据属性
-    * Batch-Join优化
+  * 栗子
+    * batch
+    * streaming
+    * table
     
-  * Flink SQL 
-    * [StreamSQL转换流程说明](./doc/StreamSQL转换流程说明.md)
+  * 源码
+    * ing
     
-    
+  * meetup分享
+    * 2018.08.11 北京flink meetup
+        链接:https://pan.baidu.com/s/1CLp2aFfef1M15Qauya4rCQ 密码:93mr
 * TODO 欢迎继续补充

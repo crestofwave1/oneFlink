@@ -1,4 +1,4 @@
-# CoolPlayFlink
+# oneFlink
 
 这个 repo 主要分享 Flink 的设计、原理并翻译Flink(v1.5.0)所涉及的模块功能等相关内容，本着自愿、公开的精神，期待热爱开源和贡献的你一起加入！
 
