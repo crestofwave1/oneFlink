@@ -7,7 +7,7 @@
 
   * [基本API介绍](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/api_concepts.html)
   * batch
-    * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/)
+    * [概览 认领 by _coderrr 翻译中](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/)
     * [transformations](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/dataset_transformations.html)
     * [Fault Tolerance](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/fault_tolerance.html)
     * [Iterations](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/iterations.html)
