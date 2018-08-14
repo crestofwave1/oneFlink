@@ -15,7 +15,7 @@
     * [Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/connectors.html)
     * [Hadoop Compatibility](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/hadoop_compatibility.html)
     * [Local Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/local_execution.html)
-    * [Cluster Execution](认领 by heitao, 翻译中)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
+    * [Cluster Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
   * streaming
       * [概览](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
       * 事件时间
@@ -46,7 +46,7 @@
         * [Side Outputs](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/side_output.html)
         * []()
   * table
-    * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
+    * [overview](认领 by heitao,翻译中)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
     * [Concepts & Common API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/common.html)
     * [Streaming Concepts](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/streaming.html)   
     * [Connect to External Systems](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/connect.html)
