@@ -46,7 +46,7 @@
         * [Side Outputs](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/side_output.html)
         * []()
   * table
-    * [overview](认领 by heitao,翻译中)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
+    * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
     * [Concepts & Common API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/common.html)
     * [Streaming Concepts](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/streaming.html)   
     * [Connect to External Systems](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/connect.html)
@@ -69,7 +69,7 @@
     * [Event Processing (CEP)](doc/quickstark/FlinkCEPOfficeWeb.md)
   
   * State & Fault Tolerance
-    * [checkpoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html)
+    * [checkpoints](认领 by heitao,翻译中)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html)
     * [savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)
     * [State Backends](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/state_backends.html)   
     * [Tuning Checkpoints and Large State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/large_state_tuning.html)
