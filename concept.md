@@ -5,6 +5,8 @@
     * [Flink on yarn 安装部署](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/deployment/yarn_setup.html)
     * [高可用 HA](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/jobmanager_high_availability.html)
 
+    * [快速构建java工程](doc/quickstark/CreateJavaProject.md)
+    
   * [基本API介绍](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/api_concepts.html)
   * batch
     * [概览 认领 by _coderrr 翻译中](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/)
@@ -53,7 +55,7 @@
     * [Table API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/tableApi.html)
     * [SQL](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sql.html)
     * [User-defined Sources & Sinks](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sourceSinks.html)
-    * [User-defined Functions](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/udfs.html)   
+    * [User-defined Functions](doc/table/UDF.md)   
     * [SQL Client Beta](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sqlClient.html)
   * Data Types & Serialization
     * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/types_serialization.html)
@@ -61,7 +63,7 @@
   * Managing Execution   
     * [Execution Configuration](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/execution_configuration.html)
     * [Program Packaging](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/packaging.html)
-    * [Parallel Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/parallel.html)
+    * [Parallel Execution](doc/ManagExecution/ParallelExecution.md)
     * [Execution Plans](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/execution_plans.html)
     * [Restart Strategies](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/restart_strategies.html)   
 
@@ -86,13 +88,14 @@
     * [Application Profiling](https://ci.apache.org/projects/flink/flink-docs-release-1.6/monitoring/application_profiling.html)   
 
   * 栗子
-    * batch
-    * streaming
-    * table
-
+    * [batch](https://github.com/crestofwave1/flinkExamples/tree/master/src/main/java/Batch)
+    * [streaming](https://github.com/crestofwave1/flinkExamples/tree/master/src/main/java/Streaming)
+    * [table](https://github.com/crestofwave1/flinkExamples/tree/master/src/main/java/TableSQL)
+    
+    
   * 源码
     * ing
-
+    
   * meetup分享
     * 2018.08.11 北京flink meetup
         链接:https://pan.baidu.com/s/1CLp2aFfef1M15Qauya4rCQ 密码:93mr
