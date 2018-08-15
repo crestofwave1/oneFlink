@@ -7,6 +7,7 @@
 有关如何为程序启用和配置检查点的信息，请参阅Checkpointing。
 
 ##保留检查点
+
 默认情况下，检查点仅用于恢复失败的job，并且不会保留。程序运行结束时会删除它们。但是，可以配置要保留的定期检查点。通过配置配置文件，可以在job失败或程序运行结束时保留的检查点。通过保留的检查点恢复失败的job。
 
 ```
@@ -18,6 +19,7 @@ config.enableExternalizedCheckpoints(ExternalizedCheckpointCleanup.RETAIN_ON_CAN
 * ExternalizedCheckpointCleanup.DELETE_ON_CANCELLATION：取消job时删除检查点。只有在job失败时，检查点状态才可用。
 
 ##目录结构
+
 与保存点类似，检查点由元数据文件和一些其他数据文件组成，具体取决于state backend。 元数据文件和数据文件存储在state.checkpoints.dir配置文件所指定的存储路径中，也可以在代码中为每个job指定存储路径。
 
 ###通过配置文件全局配置
@@ -29,10 +31,13 @@ state.checkpoints.dir: hdfs:///checkpoints/
 env.setStateBackend(new RocksDBStateBackend("hdfs:///checkpoints-data/");
 ```
 ##与保存点的差异
+
 检查点与保存点有一些差异。
 * 使用state backend特定的（低级）数据格式，可以是增量式的
 * 不支持 Flink 的某些特定功能，如rescaling。
+
 ##从保留的检查点恢复
+
 通过使用检查点的元数据文件，可以从检查点恢复job，就像从保存点恢复一样（请参阅 savepoint restore guide）。请注意，如果元数据文件不是存储在默认路径，则jobmanager需要访问state.checkpoints.dir配置文件所指定的元数据文件存储路径（请参阅 Directory Structure ）。
 ```
 $ bin/flink run -s :checkpointMetaDataPath [:runArgs]
