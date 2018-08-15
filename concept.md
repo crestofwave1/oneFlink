@@ -17,7 +17,7 @@
     * [Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/connectors.html)
     * [Hadoop Compatibility](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/hadoop_compatibility.html)
     * [本地执行](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/local_execution.html)
-    * [Cluster Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
+    * [集群执行 by zhengqiangtan,翻译中](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
   * streaming
       * [概览]（认领 by wayblink,翻译中）(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
       * 事件时间
