@@ -71,7 +71,7 @@
     * [Event Processing (CEP)](doc/quickstark/FlinkCEPOfficeWeb.md)
 
   * State & Fault Tolerance
-    * [checkpoints](认领 by heitao,翻译中)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html)
+    * [checkpoints](认领 by heitao,翻译中)(doc/State & Fault Tolerance/checkpoints.md)
     * [savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)
     * [State Backends](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/state_backends.html)   
     * [Tuning Checkpoints and Large State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/large_state_tuning.html)
