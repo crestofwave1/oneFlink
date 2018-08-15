@@ -48,7 +48,7 @@
         * [Side Outputs](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/side_output.html)
         * []()
   * table
-    * [概览](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
+    * [概览](认领 by Tomxl)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
     * [概念 & 常用API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/common.html)
     * [Streaming Concepts](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/streaming.html)   
     * [Connect to External Systems](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/connect.html)
