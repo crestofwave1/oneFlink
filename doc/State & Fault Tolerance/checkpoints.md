@@ -33,12 +33,12 @@ env.setStateBackend(new RocksDBStateBackend("hdfs:///checkpoints-data/");
 ##与保存点的差异
 
 检查点与保存点有一些差异。
-* 使用state backend特定的（低级）数据格式，可以是增量式的
+* 使用state backend特定的（低级）数据格式，可以是增量式的。
 * 不支持 Flink 的某些特定功能，如rescaling。
 
 ##从保留的检查点恢复
 
-通过使用检查点的元数据文件，可以从检查点恢复job，就像从保存点恢复一样（请参阅 savepoint restore guide）。请注意，如果元数据文件不是存储在默认路径，则jobmanager需要访问state.checkpoints.dir配置文件所指定的元数据文件存储路径（请参阅 Directory Structure ）。
+通过使用检查点的元数据文件，可以从检查点恢复失败的job，就像从保存点恢复一样（请参阅 savepoint restore guide）。请注意，如果元数据文件不是存储在默认路径，则jobmanager需要访问state.checkpoints.dir配置文件所指定的元数据文件的存储路径（请参阅 Directory Structure ）。
 ```
 $ bin/flink run -s :checkpointMetaDataPath [:runArgs]
 ```
