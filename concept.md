@@ -16,8 +16,8 @@
     * [Zipping Elements](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/zip_elements_guide.html)
     * [Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/connectors.html)
     * [Hadoop Compatibility](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/hadoop_compatibility.html)
-    * [本地执行 认领 by 孤鹜齐飞 翻译中](/dev/local_execution.html)
-    * [Cluster Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
+    * [本地执行](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/local_execution.html)
+    * [集群执行 by zhengqiangtan,翻译中](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
   * streaming
       * [概览]（认领 by wayblink,翻译中）(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
       * 事件时间
@@ -71,7 +71,7 @@
     * [Event Processing (CEP)](doc/quickstark/FlinkCEPOfficeWeb.md)
 
   * State & Fault Tolerance
-    * [checkpoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html)
+    * [checkpoints](认领 by heitao,翻译中)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html)
     * [savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)
     * [State Backends](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/state_backends.html)   
     * [Tuning Checkpoints and Large State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/large_state_tuning.html)
