@@ -64,8 +64,8 @@
     * [Execution Configuration](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/execution_configuration.html)
     * [Program Packaging](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/packaging.html)
     * [Parallel Execution](doc/ManagExecution/ParallelExecution.md)
-    * [Execution Plans](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/execution_plans.html)
-    * [Restart Strategies](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/restart_strategies.html)   
+    * [Execution Plans](doc/ManagExecution/ExecutionPlans.md)
+    * [Restart Strategies](doc/ManagExecution/RestartStrategies.md)   
 
   * CEP
     * [Event Processing (CEP)](doc/CEP/FlinkCEPOfficeWeb.md)
