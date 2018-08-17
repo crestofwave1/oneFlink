@@ -48,7 +48,7 @@
         * [Side Outputs](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/side_output.html)
         * []()
   * table
-    * [概览](认领 by Tomxl)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
+    * [概览](doc/table/TableOverview.md)
     * [概念 & 常用API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/common.html)
     * [Streaming Concepts](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/streaming.html)   
     * [Connect to External Systems](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/connect.html)
@@ -68,7 +68,7 @@
     * [Restart Strategies](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/restart_strategies.html)   
 
   * CEP
-    * [Event Processing (CEP)](doc/quickstark/FlinkCEPOfficeWeb.md)
+    * [Event Processing (CEP)](doc/CEP/FlinkCEPOfficeWeb.md)
 
   * State & Fault Tolerance
     * [checkpoints](认领 by heitao,翻译中)(doc/State & Fault Tolerance/checkpoints.md)
