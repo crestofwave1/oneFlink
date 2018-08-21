@@ -20,7 +20,7 @@ config.enableExternalizedCheckpoints(ExternalizedCheckpointCleanup.RETAIN_ON_CAN
 
 ## 目录结构
 
-与[savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)类似，检查点由元数据文件和一些其他数据文件组成，具体取决于state backend。 元数据文件和数据文件存储在state.checkpoints.dir配置文件所指定的存储路径中，也可以在代码中为每个job指定存储路径。
+与[保存点](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)类似，检查点由元数据文件和一些其他数据文件组成，具体取决于state backend。 元数据文件和数据文件存储在state.checkpoints.dir配置文件所指定的存储路径中，也可以在代码中为每个job指定存储路径。
 
 ### 通过配置文件全局配置
 ```
@@ -32,13 +32,13 @@ env.setStateBackend(new RocksDBStateBackend("hdfs:///checkpoints-data/");
 ```
 ## 与保存点的差异
 
-检查点与[savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)有一些差异。
+检查点与[保存点](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)有一些差异。
 * 使用state backend特定的（低级）数据格式，可以是增量式的。
 * 不支持 Flink 的某些特定功能，如rescaling。
 
 ## 从保留的检查点恢复
 
-通过使用检查点的元数据文件，可以从检查点恢复失败的job，就像从保存点恢复一样（请参阅[savepoint restore guide](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/cli.html#restore-a-savepoint)）。请注意，如果元数据文件不是存储在默认路径，则jobmanager需要访问state.checkpoints.dir配置文件所指定的元数据文件的存储路径（请参阅[Directory Structure](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html#directory-structure) ）。
+通过使用检查点的元数据文件，可以从检查点恢复失败的job，就像从保存点恢复一样（请参阅[保存点恢复指南](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/cli.html#restore-a-savepoint)）。请注意，如果元数据文件不是存储在默认路径，则jobmanager需要访问state.checkpoints.dir配置文件所指定的元数据文件的存储路径（请参阅[目录结构](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html#directory-structure) ）。
 ```
 $ bin/flink run -s :checkpointMetaDataPath [:runArgs]
 ```
