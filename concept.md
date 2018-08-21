@@ -19,7 +19,7 @@
     * [本地执行 认领 by 孤鹜齐飞 翻译中](/dev/local_execution.html)
     * [Cluster Execution](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/cluster_execution.html)
   * streaming
-      * [概览]（认领 by wayblink,翻译中）(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
+      * [概述]（认领 by wayblink,翻译中）(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/datastream_api.html)
       * 事件时间
           * [事件时间](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/event_time.html)
           * [产生时间戳和水印](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/event_timestamps_watermarks.html)
