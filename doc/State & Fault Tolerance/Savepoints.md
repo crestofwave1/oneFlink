@@ -1,10 +1,10 @@
 # 保存点
 ## 概述
-保存点是外部存储的自包含检查点，可用于停止、恢复、更新 Flink 程序。 用户通过 Flink 的[checkpointing mechanism](https://ci.apache.org/projects/flink/flink-docs-release-1.6/internals/stream_checkpointing.html)来创建流程序状态的（非增量）快照，并将检查点数据和元数据写入外部文件系统。
+保存点是外部存储的自包含检查点，可用于停止、恢复、更新 Flink 程序。 用户通过 Flink 的[检查点机制](https://ci.apache.org/projects/flink/flink-docs-release-1.6/internals/stream_checkpointing.html)来创建流程序状态的（非增量）快照，并将检查点数据和元数据写入外部文件系统。
 
-本小节介绍了保存点的触发、恢复和处理所涉及的步骤。 有关 Flink 如何处理状态和故障的更多详细信息，请查看[State in Streaming Programs](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/index.html)页面中。
+本小节介绍了保存点的触发、恢复和处理所涉及的步骤。 有关 Flink 如何处理状态和故障的更多详细信息，请查看[流程序状态](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/state/index.html)页面中。
 
-注意：为了能够在不同作业版本和 不同Flink 版本之间顺利升级，请务必查看[assigning IDs to your operators](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html#assigning-operator-ids)相关内容。
+注意：为了能够在不同作业版本和 不同Flink 版本之间顺利升级，请务必查看[给算子分配ID](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html#assigning-operator-ids)相关内容。
 
 ## 给算子分配 ID
 
@@ -139,4 +139,4 @@ $ bin/flink run -s :savepointPath -n [:runArgs]
 ### 当我在恢复时更改程序的并行性时会怎么样？
 如果使用 Flink 1.2.0以上版本触发保存点，并且没有使用 Checkpointed 等以及过期的 API，则只需从保存点恢复程序并指定新的并行度即可。
 
-如果从 低于1.2.0的版本触发的保存点或使用过期的 API，则首先必须将作业和保存点迁移到 Flink 1.2.0以上版本，才能更改并行度。 请参阅[升级作业和 Flink 版本指南](http://flink.iteblog.com/ops/upgrading.html)。
+如果从 低于1.2.0的版本触发的保存点或使用过期的 API，则首先必须将作业和保存点迁移到Flink 1.2.0以上版本，才能更改并行度。 请参阅[升级作业和 Flink 版本指南](http://flink.iteblog.com/ops/upgrading.html)。
