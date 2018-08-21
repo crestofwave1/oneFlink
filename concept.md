@@ -53,7 +53,7 @@
     * [Streaming Concepts](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/streaming.html)   
     * [Connect to External Systems](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/connect.html)
     * [Table API](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/tableApi.html)
-    * [SQL](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sql.html)
+    * [SQL](认领 by 浪尖)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sql.html)
     * [User-defined Sources & Sinks](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sourceSinks.html)
     * [User-defined Functions](doc/table/UDF.md)   
     * [SQL Client Beta](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/sqlClient.html)
@@ -61,7 +61,7 @@
     * [overview](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/types_serialization.html)
     * [Custom Serializers](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/custom_serializers.html)
   * Managing Execution   
-    * [Execution Configuration](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/execution_configuration.html)
+    * [Execution Configuration](doc/ManagExecution/ExecutionConfiguration.md)
     * [Program Packaging](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/packaging.html)
     * [Parallel Execution](doc/ManagExecution/ParallelExecution.md)
     * [Execution Plans](doc/ManagExecution/ExecutionPlans.md)
@@ -72,7 +72,7 @@
 
   * State & Fault Tolerance
     * [checkpoints](认领 by heitao,翻译中)(doc/State & Fault Tolerance/checkpoints.md)
-    * [savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html)
+    * [savepoints](doc/State%20&%20Fault%20Tolerance/Savepoints.md)
     * [State Backends](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/state_backends.html)   
     * [Tuning Checkpoints and Large State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/large_state_tuning.html)
 
