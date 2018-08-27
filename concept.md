@@ -71,7 +71,7 @@
     * [Event Processing (CEP)](doc/CEP/FlinkCEPOfficeWeb.md)
 
   * State & Fault Tolerance
-    * [checkpoints](认领 by heitao,翻译完毕)(doc/State & Fault Tolerance/checkpoints.md)
+    * [checkpoints](认领 by  heitao,翻译完毕)(doc/State & Fault Tolerance/checkpoints.md)
     * [savepoints](认领 by heitao,翻译完毕)(doc/State & Fault Tolerance/Savepoints.md)
     * [State Backends](认领 by heitao,翻译完毕)(doc/State & Fault Tolerance/State Backends.md)   
     * [Tuning Checkpoints and Large State](认领 by heitao,翻译完毕)(doc/State & Fault Tolerance/Tuning Checkpoints and Large State.md)

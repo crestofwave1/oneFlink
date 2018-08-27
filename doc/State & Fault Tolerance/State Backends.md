@@ -105,7 +105,7 @@ env.setStateBackend(new FsStateBackend("hdfs://namenode:40010/flink/checkpoints"
 
 配置内容的可能包括 jobmanager（MemoryStateBackend），filesystem（FsStateBackend），rocksdb（RocksDBStateBackend），或实现 [FsStateBackendFactory](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html#directory-structure) 的类的完全限定类名，例如RocksDBStateBackend的org.apache.flink.contrib.streaming.state.RocksDBStateBackendFactory。
 
-该state.checkpoints.dir选项定义所有后端写入检查点数据和元数据文件的目录。 详情请见[目录结构](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html#directory-structure)。
+该state.checkpoints.dir选项定义所有后端写入检查点数据和元数据文件的目录。详情请见[目录结构](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/checkpoints.html#directory-structure)。
 
 配置文件中的示例部分可能如下所示：
 ```

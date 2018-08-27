@@ -5,7 +5,7 @@
 
 本小节介绍了保存点的触发、恢复和处理所涉及的步骤。 有关 Flink 如何处理状态和故障的更多详细信息，请查看 Streaming Programs 页面中的 State。
 
-注意：为了能够在不同作业版本和 不同Flink 版本之间顺利升级，请务必查看assigning IDs to your operators相关内容 (https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html#assigning-operator-ids)的部分。
+注意：为了能够在不同作业版本和 不同Flink版本之间顺利升级，请务必查看assigning IDs to your operators相关内容 (https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/savepoints.html#assigning-operator-ids)的部分。
 
 ## 给算子分配 ID
 
