@@ -22,9 +22,9 @@ Flink 捆绑了这些状态后端：
 
 #### MemoryStateBackend
 
-MemoryStateBackend将数据作为Java堆栈的对象在内部保存。键/值对状态和窗口算子包含有存储值和触发器等的哈希表。
+MemoryStateBackend将数据作为Java堆栈栈的对象在内部保存。键/值对状态和窗口算子包含有存储值和触发器等的哈希表。
 
-在检查点上，此状态后端将对状态进行快照，并将其作为检查点确认消息的一部分发送到 JobManager（master），JobManager也将其存储在其堆上。
+在检查点上，此状态后端将对状态进行快照，并将其作为检查点确认消息的一部分发送到 JobManager（master），JobManager也将其存储在其堆栈上。
 
 内存状态后端可以被配置为使用异步快照。尽管我们强烈鼓励使用异步快照来避免阻塞管道，但是请注意，目前默认情况下启用了此功能。为了禁用该特性，用户可以在构造函数中将对应的布尔标志设置为 false（这应该只用于调试）来实例化 MemoryStateBackend，例如：
 ```
@@ -77,7 +77,7 @@ RocksDBStateBackend 的局限性在于：
 * 具有非常大的状态，长窗口，大键 / 值状态的作业。
 * 所有高可用性设置。
 
-请注意，可以保留的状态量仅受可用磁盘空间量的限制。与将状态保持在内存中的 FsStateBackend 相比，这允许保持非常大的状态。 但是，这也意味着使用此状态后端可以实现的最大吞吐量更低。 对此后端的所有 读/写 都必须通过反/序列化来检索/存储状态对象，这比像基于堆栈的后端那样始终使用堆栈表示更要好。。
+请注意，可以保留的状态量仅受可用磁盘空间量的限制。与将状态保持在内存中的 FsStateBackend 相比，这允许保持非常大的状态。 但是，这也意味着使用此状态后端可以实现的最大吞吐量更低。 对此后端的所有 读/写 都必须通过反/序列化来检索/存储状态对象，这比像基于堆栈栈的后端那样始终使用堆栈栈表示更要好。。
 
 RocksDBStateBackend 是目前唯一提供增量检查点的后端（详情见[Tuning Checkpoints and Large State](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/state/large_state_tuning.html)）。
 
@@ -90,8 +90,8 @@ RocksDBStateBackend 是目前唯一提供增量检查点的后端（详情见[Tu
 每个作业状态后端StreamExecutionEnvironment在作业上设置，如下例所示：
 
 ```java
-StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-env.setStateBackend(new FsStateBackend("hdfs://namenode:40010/flink/checkpoints"));
+    StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+    env.setStateBackend(new FsStateBackend("hdfs://namenode:40010/flink/checkpoints"));
 ```
 ```scala
 val env = StreamExecutionEnvironment.getExecutionEnvironment()
