@@ -35,9 +35,9 @@
       * Operators
         * [Operators](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/)   
         * [windows](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/windows.html)
-        * [Joining](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/joining.html)
+        * [Joining](doc/Operators/join.md)
         * [Process Function](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/process_function.html)
-        * [Asynchronous I/O](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/operators/asyncio.html)
+        * [Asynchronous I/O](doc/Operators/AsynchronousIO.md)
       * Streaming Connectors
         * [Streaming Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/connectors/)
         * [Fault Tolerance Guarantees](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/connectors/guarantees.html)
@@ -46,7 +46,6 @@
         * [HDFS Connector](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/connectors/filesystem_sink.html)
       * Side Outputs
         * [Side Outputs](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/stream/side_output.html)
-        * []()
   * table
     * [概览](认领 by Tomxl)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/)
     * [概念 & 常用API](认领 by 清风)(https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/table/common.html)
