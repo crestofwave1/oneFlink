@@ -1,11 +1,11 @@
 * [Flink是什么](doc/quickstart/what-is-flink.md)
   * quickstart
     * [简介](doc/quickstart/what-is-flink.md)
-    * [Flink standalone 安装部署](doc/quickstart/FlinkDeploy.md)
+    * [Flink standalone 安装部署](doc/quickstark/FlinkDeploy.md)
     * [Flink on yarn 安装部署](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/deployment/yarn_setup.html)
     * [高可用 HA](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/jobmanager_high_availability.html)
 
-    * [快速构建java工程](doc/quickstart/CreateJavaProject.md)
+    * [快速构建java工程](doc/quickstark/CreateJavaProject.md)
     
   * [基本API介绍](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/api_concepts.html)
   * batch
