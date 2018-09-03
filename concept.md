@@ -10,13 +10,13 @@
   * [基本API介绍](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/api_concepts.html)
   * batch
     * [概览 认领 by _coderrr 翻译中](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/)
-    * [转换](doc/batch/dataset_transformations.html)
+    * [转换](doc/batch/dataset_transformations.md)
     * [Fault Tolerance](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/fault_tolerance.html)
     * [Iterations](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/iterations.html)
     * [Zipping Elements](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/zip_elements_guide.html)
     * [Connectors](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/connectors.html)
     * [Hadoop Compatibility](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/batch/hadoop_compatibility.html)
-    * [本地执行](https://ci.apache.org/projects/flink/flink-docs-release-1.6/dev/local_execution.html)
+    * [本地执行](doc/batch/local_execution.html)
     * [集群执行](doc/batch/ClusterExecution.md)
   * streaming
       * [概述](doc/streaming/overview.md)
