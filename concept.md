@@ -1,6 +1,6 @@
-* [Flink是什么](doc/quickstark/what-is-flink.md)
-  * quickstark
-    * [简介](doc/quickstark/what-is-flink.md)
+* [Flink是什么](doc/quickstart/what-is-flink.md)
+  * quickstart
+    * [简介](doc/quickstart/what-is-flink.md)
     * [Flink standalone 安装部署](doc/quickstark/FlinkDeploy.md)
     * [Flink on yarn 安装部署](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/deployment/yarn_setup.html)
     * [高可用 HA](https://ci.apache.org/projects/flink/flink-docs-release-1.6/ops/jobmanager_high_availability.html)
